@@ -1,0 +1,346 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>黄总左栋</title>
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="renderer" content="webkit" />
+<meta name="keywords" content="VR全景合成，全景合成，全景在线合成，全景制作软件，黄总左栋全景效果图，全景效果图，装修全景效果图，建E全景"/>
+<meta name="description" content=" 建E全景是一款免费的VR全景在线制作软件，3分钟快速合成，10秒一键分享，让你签单快人一步，是300万设计师都在用的在线签单工具。"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0,user-scalable=no" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<script type="text/javascript" src="https://res1.justeasy.cn/min/b=js&f=jquery.min.js,jquery.qrcode.min.js,touch.min.js,3.0/page/vr/cat.touchjs.js,art-template-web.js,clipboard.min.js,swiper4.0.5.min.js,flexible.js,iscroll2.js,navbarscroll.js?v=20240909518"></script>
+<style>.cur{cursor:pointer;-webkit-tap-highlight-color:rgba(255,255,255,0);-webkit-user-select:none;-moz-user-focus:none;-moz-user-select:none;}.layer-pano-pwd{background-image:url("https://res1.justeasy.cn/images/vr/microIndex/bj.jpg");background-size:100% 100%;background-repeat:no-repeat;display:flex;justify-content:center;align-items:center}.pop{margin-top:335px!important}.pop .pwd{padding-left:0px !important}.pop .pwd{height:40px!important;border-radius:6px;opacity:0.8;width:235px!important;text-indent:20px}.pop .submit{border-radius:6px!important;height:40px}.pop .submit{border-radius:6px!important;height:40px}.pop .submit{color:#ffffff}@media screen and (max-width:768px){.layer-pano-pwd{background-image:url("https://res1.justeasy.cn/images/vr/microIndex/bj_s.jpg");background-size:100% 100%;background-repeat:no-repeat;display:flex;justify-content:center;align-items:center}.r-txt{display:block!important;width:100%!important}.submit{margin-top:10px}.pop .pwd{width:170px!important}}</style>
+<script>function getQueryStringByName(name) {var result =location.search.match(new RegExp("[\?\&]" + name + "=([^\&]+)","i"));if (result ==null ||result.length < 1) {return "";}
+return result[1];}
+function G(name) {return getQueryStringByName(name);}
+$.ajax({url:"https://vr.justeasy.cn/v/ct",type:'get',dataType:'jsonp',timeout:1000,data:{id:'17x1yj7c1643l201',lastupdate:'1727066943',act:'preview',host:'vr.justeasy.cn',timestamp:'1730709281',authid:'0',noncestr:'',signature:'d173454e11832f6ac60c5ac98cc1d5688417d8a4',_get:window.location.search
+},success:function (res) {if (res.status ==-201) {location.href =res.url;}
+}
+});var weixin =0;var _userAgent =navigator.userAgent;if (_userAgent.indexOf('MicroMessenger') >-1 &&_userAgent.indexOf('wxwork') >-1) {weixin =1;} else if (_userAgent.indexOf('MicroMessenger') >-1) {weixin =2;}
+var wx_share_appId ='wx2ed7c1e3c0abd05b';if (weixin ==1) {wx_share_appId ='ww219d1e0efe7d0cd7';}
+var vr_isWxAndroid =0;if (weixin >0 &&_userAgent.indexOf('Android') >-1) {vr_isWxAndroid =1;}
+function setCookie(name,value,Days) {var exp =new Date();exp.setTime(exp.getTime() + Days *24 *60 *60 *1000);document.cookie =name + "=" + escape(value) + ";expires=" + exp.toGMTString();}
+function getCookie(name) {var arr,reg =new RegExp("(^| )" + name + "=([^;]*)(;|$)");if (arr =document.cookie.match(reg))
+return unescape(arr[2]);else
+return null;}
+function settime() {if (countdown ==0) {$("#timesss").html(countdown+"s");$("#timesss").html("关闭").css({color:"#fff"})
+ $(".vr-close222").addClass("vr-close-btn");$(".vr-gg-box").hide();clearInterval(downClearTime);} else {countdown--;$("#timesss").html(countdown+"s");}
+}
+function openAdvertlink(url) {if (app =="android") {android.goMicro('0',' ',url);} else if (app =="ios") {window.webkit.messageHandlers.goMicro.postMessage({canShare:'0',title:' ',url:url});} else {if (is_mobile >0) {location.href =url;} else {window.open(url);}
+}
+}
+var liked ='',like_num =0,view_num =0,is_view =0,is_like =0,is_vip =0;var wx_share_timestamp ='',wx_share_nonceStr ='',wx_share_signature ='';var pano_like =getCookie('pano_like');var uv_code =getCookie('vr_vip_statis_uv');var vr_view_num =0;var countdown =0;var downClearTime =null;var _time =parseInt(3);var countDownClearTime =null;var vip_auth_micro=0,vip_auth_TopAdvert=0,vip_auth_watermark=0,vip_auth_logo =0;var vip_auth_watermark_origin='',is_offline_pano =0;var act ="preview";var open_advert_h5 ="";$.ajax({url:"https://vr.justeasy.cn/v/lv/31594194",type:'get',dataType:'jsonp',data:{pano_like:pano_like,uv_code:uv_code,weixin:weixin,url:location.href},success:function (res) {if (res.status ==200) {is_vip =res.list.is_vip;liked =res.list.liked;like_num =res.list.like_num;view_num =res.list.view_num;is_view =res.list.is_view;is_like =res.list.is_like;wx_share_timestamp =res.list.timestamp;wx_share_nonceStr =res.list.nonceStr;wx_share_signature =res.list.signature;vr_view_num =res.list.view_num;vip_auth_micro =res.list.vip_auth_micro;vip_auth_TopAdvert =res.list.vip_auth_TopAdvert;vip_auth_watermark =res.list.vip_auth_watermark;vip_auth_watermark_origin =res.list.vip_auth_watermark_origin;is_offline_pano =res.list.is_offline;vip_auth_logo =res.list.vip_auth_logo;if (vip_auth_TopAdvert) {$('.top-advert').hide();$('.vip_urlname').hide();$('#bodyclass').hide();}
+if (!res.list.vip_auth_intment) {$('.mdesigner1').hide();}
+if (res.list.vip_auth_micro) {$('.p_class_micro_icon').hide();}
+if (!res.list.vip_auto_map) {$('.vip_map').hide();}
+$('#pano-wrapper .mobile').hide()
+if (res.list.vip_auto_mobile ==2) {$('#pano-wrapper .mobile').show()
+}
+ $('.vip_mobile1').show()
+ if(res.list.shareurl){$('#shareimg canvas').remove();$('#shareimg').qrcode({render:'canvas',ecLevel:'H',size:180,radius:0.5,width:180,height:180,background:'#ffffff',text:res.list.shareurl});}
+ $('.canvasHary').hide();if (res.list.uv_code !=-1) {setCookie('vr_vip_statis_uv',res.list.uv_code,1);}
+if (is_offline_pano ==1) {$('body').html('<div id="save_theft_tips" class="vr-del-showbox vr-save-theft-showbox none">\n' +
+'    <div class="d-text d-text2" style="padding-top: 80px;">\n' +
+'        <p style="font-size: 24px;">该作品涉嫌违规， 已强制停止访问。</p>\n' +
+'    </div>\n' +
+'    <div class="txt txt2" style="margin-top: 10px;text-align: center;">\n' +
+'        <p class="p1"><span>注：</span>建E全景为公共合成平台，请积极配合，营造良好的展示环境！</p>\n' +
+'    </div>\n' +
+'</div>');layer.open({type:1,title:'下架提醒',content:$("#save_theft_tips"),area:['560px','300px'],closeBtn:false,shadeClose:false,});removepano("krpanoSWFObject");return false;}
+ if (is_mobile >0) {$('p#btn_like').attr('data-val',liked);$('p#btn_like .item-icon-like').attr('style','background-image: url("https://res1.justeasy.cn/images/vr-revision/zan'+liked+'-moblie.png");');$('p#btn_like .item-title').find('#like_num').html(like_num);if (res.list.advert_open =='1' &&res.list.advert.pic2_url !='') {if (_time >0 &&open_advert_h5 !='') {if (res.list.advert_type =='1') {var _html =`<div class="cont"><div class="vr-close222" style="z-index: 2147483647;"><span class="timesss" id="timesss">5s</span></div><div class="cover-gg">广告</div><a href="javascript:openAdvertlink('` + res.list.advert.link + `');" style="cursor:pointer;"><img src="` + res.list.advert.pic2_url + `"></a></div>`;$('#preview_advert').html(_html);setTimeout(function () {$('#preview_advert').show();downClearTime=setInterval(settime,1000);$(document).on('click','.vr-gg-box .vr-close-btn',function(e){e.stopPropagation();e.preventDefault();$(".vr-gg-box").hide();clearInterval(downClearTime);});},(_time *1000) + 300);} else {$('#preview_advert').append(res.list.advert.pic2_url);setTimeout(function () {$('#preview_advert').show();},(_time *1000) + 300);setTimeout(function () {$('#preview_advert').hide();},(_time *1000) + 5000);}
+} else {if (res.list.advert_type =='1') {var _html =`<div class="cont"><div class="vr-close222" style="z-index: 2147483647;"><span class="timesss" id="timesss">关闭</span></div><div class="cover-gg">广告</div><a href="javascript:openAdvertlink('` + res.list.advert.link + `');" style="cursor:pointer;"><img src="` + res.list.advert.pic2_url + `"></a></div>`;$('#preview_advert').html(_html);downClearTime=setInterval(function(){$('#preview_advert').show();$(document).on('click','.vr-gg-box .vr-close222',function(e){e.stopPropagation();e.preventDefault();$(".vr-gg-box").hide();clearInterval(downClearTime);});},1000);} else {$('#preview_advert').append(res.list.advert.pic2_url);$('#preview_advert').show();setTimeout(function () {$('#preview_advert').hide();},5000);}
+}
+}
+} else {$('a#btn_like').attr('data-val',liked);$('a#btn_like .item-icon-like').attr('style','background-image: url("https://res1.justeasy.cn/images/vr-revision/zan'+liked+'.png");');$('a#btn_like').siblings('#like_num').html(like_num);if (res.list.advert_open =='1' &&res.list.advert.pic1_url !='') {if (_time >0 &&open_advert_h5 !='') {if (res.list.advert_type =='1') {var _html =`<div class="cont"><div class="vr-close222" style="z-index: 2147483647;"><span class="timesss" id="timesss">5s</span></div><div class="cover-gg">广告</div><a href="javascript:openAdvertlink('` + res.list.advert.link + `');" style="cursor:pointer;"><img src="` + res.list.advert.pic1_url + `"></a></div>`;$('#preview_advert').html(_html);setTimeout(function () {$('#preview_advert').show();downClearTime=setInterval(settime,1000);$(document).on('click','.vr-gg-box .vr-close-btn',function(e){e.stopPropagation();e.preventDefault();$(".vr-gg-box").hide();clearInterval(downClearTime);});},(_time *1000) + 300);} else {$('#preview_advert').append(res.list.advert.pic1_url);setTimeout(function () {$('#preview_advert').show();},(_time *1000) + 300);setTimeout(function () {$('#preview_advert').hide();},(_time *1000) + 5000);}
+} else {if (res.list.advert_type =='1') {var _html =`<div class="cont"><div class="vr-close222" style="z-index: 2147483647;"><span class="timesss" id="timesss">关闭</span></div><div class="cover-gg">广告</div><a href="javascript:openAdvertlink('` + res.list.advert.link + `');" style="cursor:pointer;"><img src="` + res.list.advert.pic1_url + `"></a></div>`;$('#preview_advert').html(_html);downClearTime=setInterval(function(){$('#preview_advert').show();$(document).on('click','.vr-gg-box .vr-close222',function(e){e.stopPropagation();e.preventDefault();$(".vr-gg-box").hide();});clearInterval(downClearTime);},1000);} else {$('#preview_advert').append(res.list.advert.pic1_url);$('#preview_advert').show();setTimeout(function () {$('#preview_advert').hide();},5000);}
+}
+}
+}
+}
+}
+});function IsMobile() {var userAgentInfo =navigator.userAgent.toLowerCase();var Agents =['nokia','sony','ericsson','mot','samsung','htc','sgh','lg','sharp','sie-','philips','panasonic','alcatel','lenovo','iphone','iPhone','ipod','blackberry','meizu','android','netfront','symbian','ucweb','windowsce','palm','operamini','operamobi','openwave','nexusone','cldc','midp','wap','mobile','ipad','webview','Mobile','Android','iPhone','SymbianOS','Windows Phone','iPad','iPod','vivo'
+];var flag =false;for (var v =0;v < Agents.length;v++) {if (userAgentInfo.indexOf(Agents[v]) >0) {flag =true;break;}
+}
+return flag;}
+var app =G('referer');var isbigscreen =G('isBigScreen');var _fromapp =G('_fromapp');var test =G('test');var app_referer =0;var is_mobile;if (IsMobile()) {is_mobile =200;if ($.inArray(app,['ios','android']) !=-1) {app_referer =1;}
+if (_fromapp =='sjtt') {app_referer =2;}
+} else {is_mobile =-200;isbigscreen =2;}
+</script>
+<script type="text/javascript" src="https://res.wx.qq.com/open/js/jweixin-1.2.0.js"></script>
+<script type="text/javascript" src="https://res1.justeasy.cn/vr2023/tour_21.js"></script>
+<script type="text/javascript" src="https://res1.justeasy.cn/js/layer/layer-v3.1.1/layer.js?v=20240909518"></script>
+<link rel="stylesheet" href="https://res1.justeasy.cn/css/quanjing/vrSynthesis.css?v=20240909518">
+<link rel="stylesheet" type="text/css" href="https://res1.justeasy.cn/min/b=css&f=swiper.min.css,vr-preview.css,vr-preview-son.css,vr-edit.css,vip_vr.css,quanjing/vrEdit.css?v=202409095182">
+</head>
+<body>
+<div id="bodyclass" style="width: 100%;height: 100%;z-index: 1900;position: absolute;display: none;">
+<div id="passWordWarp"></div>
+<div id="loading">
+<div id="loadingImg" style="width:100%;height: 100%;display: flex;justify-content: center;align-items: center;">
+<img src="">
+</div>
+</div>
+<div class="time-start" style="cursor:pointer;" onclick="clearTimeout(timeClock);startPano();">
+<span class="time" id="time">3</span>s自动进入全景或点击直接进入
+</div>
+</div>
+<audio id="mp3" src="https://vrmusic.justeasy.cn/uploads/music/202201/20220127172120_61f26410424fe.mp3" loop="loop" style="display: none;"></audio>
+<div class="pano_left" id="pano_preview_compare" style="display: none;width:100%;height:100%;"></div>
+<div id="pano" style="width:100%;height:100%;">
+<noscript>
+<table style="width:100%;height:100%;">
+<tr style="vertical-align:middle;">
+<td>
+<div style="text-align:center;">ERROR:<br />
+<br />Javascript not activated<br /><br />
+</div>
+</td>
+</tr>
+</table>
+</noscript>
+</div>
+<script>var PANOID ="31594194";var uid =parseInt("1367592");var has_expired =parseInt("0");var versions ="0";var music =parseInt("1");var xml ="https://vrxmlnew.justeasy.cn/31594194_1727066943.xml";var krpano;var bodyclass ="";var sendboxopen ="";var lat ="";var lng ="";var shareUrl ="https://vr.justeasy.cn/view/17x1yj7c1643l201-1727066943.html";var bodyBackgroundColor ="#333333";var advertStatus =parseInt("1");var vr_model_group =parseInt("2");var galleryThumbs,galleryTop,tag_index =0,json_List;var pano_setting_showthumbs ="false";var wx_share_desc ='榮豪Design';var wx_share_imgUrl ='https://vrimg.justeasy.cn/pano/20240608/32-125936_6663e53872b5c.tiles/thumb.jpg';var wx_share_title ='黄总左栋';var vr_site_vrimg ="https://vrimg.justeasy.cn/";var vr_site_url ="https://vr.justeasy.cn/";var vr_adv_url ="";var vr_site_res1_url ="https://res1.justeasy.cn/";var vr_water_origin ="";var vr_is_vip ="1";var _SessionStoragejson;var _sandBoxisLanguage =1;var _sandTargetToSandid =[];var _sandTargetToSandList =[];var _sandTargetToSandInfoList =[];var audioHotSpotActiveId =0;var intro ="设计说明";var last_update_time ="1727066943";var is_encrypt =parseInt("0");var open_advert_pc ="";var open_advert_h5 ="";var watermark ="0";var avatar ="https://vrimg.justeasy.cn/pano/20210417/logo/42-1367592_607aa1a769618_150.jpg";var avatar_type ="1";var advert ="%E6%9C%AC%E8%91%97%E4%BD%9C%E6%9D%83%E4%B8%BA%E5%BE%A1%E7%9F%B3%E7%B2%BE%E5%B7%A5%E6%89%80%E6%9C%89%EF%BC%8C%E4%B8%A5%E7%A6%81%E6%8A%84%E8%A2%AD%EF%BC%81%E2%80%94%E5%BB%BAE%E7%BD%91";$(document).ready(function(){$('#content').text(decodeURIComponent(advert.replace(/\+/g,'%20')));});</script>
+<div class="pano-revision-moblie none-revision" id="panoMoblie" style="display: none;">
+<div class="left-moblie">
+<p class="none scenes item cur" id="show_scenes">
+<i class="item-icon" style="background-image: url('https://res1.justeasy.cn/images/vr-revision/scene-moblie.png')"></i>
+<span class="item-title"><i>场景</i></span>
+</p>
+<a class="item vip_mobile1" href="tel:13411977004">
+<i class="item-icon" style="background-image: url('https://res1.justeasy.cn/images/vr-revision/tel-moblie.png')"></i>
+<span class="item-title item-scroll">
+<i class="item-scroll-1">电话</i>
+<i class="item-scroll-2">电话</i>
+</span>
+</a>
+</div>
+<div class="right-moblie">
+<p class="item icon-revision" id="btn_like">
+<i class="item-icon item-icon-like"></i>
+<span class="item-title"><i id="like_num">4</i></span>
+</p> </div>
+</div>
+<div class="canvasPop none" id="canvasPop">
+<div class="canvas_box">
+<canvas id="myCanvas" width="760" height="920" style="width: 380px;height: 460px"></canvas>
+<div class="canvasHary" style="top: 328px;position: absolute;width: 87px;height: 87px;left: 268px;background: url('https://res1.justeasy.cn/images/quanjing/qrbackground.png');cursor: pointer;"></div>
+</div>
+<ul class="clearfix" id="canavas_operate">
+<li class="item20227 fl copyLink" data-clipboard-text="https://vr.justeasy.cn/view/17x1yj7c1643l201-1727066943.html" id="canvas_copy" style="margin-right: 45px;margin-left: 55px">
+<i class="icon icon-link" style="width: 100%;"></i>
+<p>复制链接分享</p>
+</li>
+<li class="item20227 fl" onclick="shareC()" style="margin-right: 45px;margin-left: 55px">
+<i class="icon icon-sm"></i>
+<p>扫码分享</p>
+<em></em>
+</li>
+</ul>
+</div>
+<div class="canvas_img none" id="canvas_img"></div>
+<div class="canvas_empty none"><canvas width="83" height="83" id="canvasWhite"></canvas></div>
+<ul class="pano-wrapper pano-revision" id='pano-wrapper' style="display:none;">
+<li style="width: 1px;height: 50px;"></li>
+<div class="ewm none" style="padding: 10px; width:180px;height:180px;background: #fff">
+<div id="shareimg">
+<img src="https://vrimg.justeasy.cn/pano/20210417/logo/42-1367592_607aa1a769618_150.jpg" width="50" height="50" style="position: absolute;top: 70px;left: 70px;background: #fff;width: 50px;height: 50px"> </div>
+</div>
+<div class="share_compare" style="background: #fff; padding: 10px; display: none;">
+<div class="code_img" id="share_compare_img"></div>
+<div class="tips">
+<p>识别二维码</p><p>单独分享对比场景</p>
+</div>
+</div>
+<li class="share">
+<div style="padding: 10px; width:180px;height:180px;background: #fff;display: none;">
+<div>
+<img src="https://vrimg.justeasy.cn/pano/20210417/logo/42-1367592_607aa1a769618_150.jpg" width="50" height="50" style="position: absolute;top: 70px;left: 70px;background: #fff;width: 50px;height: 50px"> </div>
+</div>
+<p class="icon-revision-warp">
+<span class="icon-revision">
+<i style="background-image: url('https://res1.justeasy.cn/images/vr-revision/share.png');"></i>
+</span>
+</p>
+<div class="iconname">分享</div>
+</li>
+<li>
+<a href="javascript:;" id="btn_like">
+<p class="icon-revision-warp">
+<span class="icon-revision">
+<i class="item-icon-like"></i>
+</span>
+</p>
+</a>
+<div class="iconname" id="like_num"></div>
+</li>
+<li class="mobile vip_mobile1">
+<div class="none tel" style="bottom: 100px">
+13411977004 </div>
+<a href="javascript:;">
+<p class="icon-revision-warp">
+<span class="icon-revision">
+<i style="background-image: url('https://res1.justeasy.cn/images/vr-revision/tel.png');"></i>
+</span>
+</p>
+</a>
+<div class="iconname iconname-scroll">
+<i class="item-scroll-common" style="padding: 0;">电话</i>
+</div> </li>
+<li class="vr-preview-icon-right">
+<div class="scenes vr-tubiao cur" id="show_scenes">
+<a href="javascript:;">
+<img src="https://res1.justeasy.cn/vr2023/skin/scene.png" class="icon">
+</a>
+<div class="iconname">场景选择</div>
+</div>
+</li>
+</ul>
+<div class="top-advert none">
+<div class="top-advert-revision">
+<div id="container" class="top-advert-msg">
+<div id="content" class="top-advert-msg-1">本著作权为御石精工所有，严禁抄袭！—建E网</div>
+</div>
+<div class="top-close none"><i class="fa fa-times-circle none"></i></div>
+</div>
+</div>
+<script type="text/html" id="material-view">
+        <div class="material-view">
+            <button class="m-back" onclick="joinscene('{{id}}')">返回主场景</button>
+            <div class="cont clearfix">
+                {{each list value}}
+                <div class="item fl" style="cursor:pointer;" onclick="joinscene('{{value.id}}')">
+                    <div class="pic">
+                        <img src="https://vrimg.justeasy.cn/{{value.pic}}">
+                    </div>
+                    <p class="txt ellipsis">{{value.name}}</p>
+                    <i class="icon icon-now-material {{value.active}}"></i>
+                </div>
+                {{/each}}
+            </div>
+        </div>
+    </script>
+<script type="text/javascript" src="https://res1.justeasy.cn/min/b=js&f=3.0/page/vr/previewnew.js?v=202409095181222"></script>
+<script>function startPano() {if (is_offline_pano ==1) {return false;}
+embedpano({swf:"https://res1.justeasy.cn/vr2023/tour.swf?v=16",xml:xml,target:"pano",html5:"prefer",mobilescale:1.0,passQueryParameters:true,wmode:"opaque",webgl:"auto"});krpano =document.getElementById("krpanoSWFObject");}
+var timeClock;if (bodyclass =='body-class') {$('#loading').show();if (bodyBackgroundColor) {$("body").css('background-color',bodyBackgroundColor);}
+timeClock =setTimeout('startPano()',3000);} else {startPano();}
+</script>
+<script type="text/javascript" src="https://res1.justeasy.cn/min/b=js&f=art-template-web.js,swiper4.0.5.min.js,flexible.js,iscroll2.js,navbarscroll.js?v=20240909518"></script>
+<div class="tab-shuffling visibility no-show" id="tab-shuffling"></div>
+<script type='text/html' id="template_lb">
+            <div class="lb" id="lb">
+                {{each jsonList val i }}
+                <div class="cont {{if i!=0 }}none{{/if}} vr-lb-groupid-{{val.id}} ">
+                    <div class="swiper-container gallery-top gallery-top_{{val.id}}">
+                        <div class="swiper-wrapper" style="display: none;">
+                            {{each val.son val2 i}}
+                            <div class="swiper-slide">{{val2.name}}</div>
+                            {{/each}}
+                        </div>
+                    </div>
+                    <div class="swiper-container gallery-thumbs gallery-thumbs_{{val.id}}">
+                        <div class="swiper-wrapper">
+                            {{each val.son val2 k}}
+                            <div class="swiper-slide vr-slide vr-pano2sceneid-{{val2.pano2sceneid}} {{if k==0 }} vr-groupid-{{val2.groupid}} {{/if}} {{if val2.hide==1}}none{{/if}}" data-index="{{k}}" data-pano2sceneid="{{val2.pano2sceneid}}" data-groupid="{{val2.groupid}}" title="{{val2.name}}" data-compare="{{val2.compare_id}}" >
+                                {{if val2.compare_id!= 0}}
+                                <div class="compare-img" style="position: absolute;right: 2px;    transform: scale(0.8);background: #2222227a;height: 29px;top: 2px;border-radius: 2px;">
+                                    <img src="https://res1.justeasy.cn/vr16/skin1/fenping.png" alt="">
+                                </div>
+                                {{/if}}
+
+                                <div class="pic"><img id="pic-img-{{val.val2}}" src="https://vrimg.justeasy.cn/{{val2.preview}}"></div>
+                                <div class="name2">
+                                    <div id="container_small_tip{{val2.pano2sceneid}}" class="container_small_tip">
+                                        <div id="content_small_tip_{{val2.pano2sceneid}}" class="content_small_tip">{{val2.name}}</div>
+                                    </div>
+                                </div>
+                            </div>
+                            {{/each}}
+                        </div>
+                    </div>
+                </div>
+                {{/each}}
+            </div>
+
+            <div class="wrapper02 nav-tab none" id="nav-tab">
+                <div class="scroller">
+                    <ul class="clearfix">
+                        {{each jsonName val i}}
+                        {{if i == 0}}
+                        <li class="item  nav-tab-groupid-{{val.id}}" data-id="{{val.id}}" data-index="{{i}}"><a href="javascript:void(0)">{{val.name}}</a></li>
+                        {{else/}}
+                        <li class="item  nav-tab-groupid-{{val.id}}" data-id="{{val.id}}" data-index="{{i}}"><a href="javascript:void(0)">{{val.name}}</a></li>
+                        {{/if}}
+                        {{/each}}
+                    </ul>
+                </div>
+            </div>
+        </script>
+<script type="text/javascript" src="https://res1.justeasy.cn/min/b=js&f=3.0/page/vr/roll.js?v=20240909518"></script>
+<script>json_List ={jsonName:[{"name":"\u9ed8\u8ba4","id":0}],jsonList:[{"id":0,"name":"\u9ed8\u8ba4","son":[{"name":"\u4e00\u697c\u5ba2\u5385","groupid":0,"sceneid":"109028820","pano2sceneid":"94298561","preview":"pano\/20240608\/32-125936_6663e53872b5c.tiles\/thumb.jpg","hide":0,"compare_id":0},{"name":"\u795e\u5385","groupid":0,"sceneid":"109028882","pano2sceneid":"94442223","preview":"pano\/20240608\/32-130049_6663e581c87b9.tiles\/thumb.jpg","hide":0,"compare_id":0},{"name":"\u4e8c\u697c\u5ba2\u5385","groupid":0,"sceneid":"114585193","pano2sceneid":"98831313","preview":"pano\/20240821\/42-141106_66c584fa7871e.tiles\/thumb.jpg","hide":0,"compare_id":0}]}]};function lbFun1(el,num,OffsetAfter) {galleryThumbs =new Swiper('.gallery-thumbs_' + el,{spaceBetween:10,slidesPerView:num,freeMode:true,watchSlidesVisibility:true,watchSlidesProgress:true,slidesOffsetAfter:OffsetAfter,centerInsufficientSlides:true,on:{init:function () {if (el >0) {$(".swiper-slide").removeClass('swiper-slide-active swiper-slide-thumb-active').children();}
+},resize:function(){this.update();}
+},});galleryTop =new Swiper('.gallery-top_' + el,{spaceBetween:10,slidesOffsetAfter:30,centerInsufficientSlides:true,thumbs:{swiper:galleryThumbs
+}
+});}
+$(document).ready(function () {if (is_offline_pano ==1) {return false;}
+$(window).resize(function (event) {reloadnum();});$(window).bind('orientationchange',function (e) {$("#tab-shuffling").addClass('phone');$(".phone .swiper-slide").css({"width":"70px !important","height":"70px !important"
+});reloadnum();});var _w,_num;if (vr_model_group !=0) {$('#show_scenes').show();$(document).on('click','.swiper-container .vr-slide',function () {let _SCENEID =$(this).attr('data-pano2sceneid');let _compare_id =$(this).attr('data-compare');if(_compare_id >0){krpano.set("layer[compare_btn].visible",true);}else{krpano.set("layer[compare_btn].visible",false);}
+krpano.call("loadscene(scene_" + _SCENEID + ",null,MERGE,BLEND(0.8));");if (vip_auth_TopAdvert >0) {for (var i in krpano.get("hotspot").getArray()) {if (krpano.get("hotspot").getArray()[i].name.indexOf('nadirlogo') >=0) {krpano.call("delhotspot(" + krpano.get("hotspot").getArray()[i].name + ")");}
+}
+}
+$(".swiper-slide").removeClass('swiper-slide-active swiper-slide-thumb-active');$('.vr-pano2sceneid-' + _SCENEID).addClass('swiper-slide-active swiper-slide-thumb-active');handerWordRoll(_SCENEID);});let html =template("template_lb",json_List);let is_pic_true =IsPC();function IsPC() {var userAgentInfo =navigator.userAgent;var Agents =["Android","iPhone","SymbianOS","Windows Phone","iPad","iPod"];var flag =true;for (var v =0;v < Agents.length;v++) {if (userAgentInfo.indexOf(Agents[v]) >0) {flag =false;break;}
+}
+return flag;}
+$("#tab-shuffling").append(html);handerWordRoll(json_List.jsonList[0].son[0].pano2sceneid)
+function reloadnum() {if (is_pic_true) {$("#tab-shuffling").removeClass('phone');_w =$('body,html').width() - 140;_num =Math.ceil(_w / 110);} else {$("#tab-shuffling").addClass('phone');_w =$('body,html').width();_num =Math.ceil(_w / 80);}
+lbFun1(json_List.jsonList[0].id,_num,(json_List.jsonList[0].son.length *15));}
+reloadnum();$('#nav-tab').navbarscroll({defaultSelect:tag_index,scrollerWidth:6,fingerClick:1,endClickScroll:function (obj) {}
+});$("#nav-tab .item").click(function () {let _index =$(this).index();$("#lb .cont").eq(_index).show().siblings().hide();lbFun1(json_List.jsonList[_index].id,_num,(json_List.jsonList[_index].son.length *15));$(".swiper-slide").removeClass('swiper-slide-thumb-active swiper-slide-active');$(".vr-pano2sceneid-" + krpano.get("scene[get(xml.scene)].id")).addClass('swiper-slide-thumb-active swiper-slide-active');});$(document).on('click','#show_scenes',function () {if ($('#tab-shuffling').hasClass('visibility')) {$('#tab-shuffling').removeClass('visibility');$(".tab-shuffling").css({transform:'translateY(0px)'});$(".tab-shuffling").addClass('no-show');} else {let isTure =$("#tab-shuffling").hasClass('no-show');if (isTure) {$(".tab-shuffling").css({transform:'translateY(300px)'});$(".tab-shuffling").removeClass('no-show');} else {$(".tab-shuffling").css({transform:'translateY(0px)'});$(".tab-shuffling").addClass('no-show');}
+}
+});}
+});</script> <script>if (is_offline_pano ==0) {$(function () {if (app_referer ==2) {if (is_mobile >0) {$('#btn_like').remove();} else {$('#btn_like').parent().remove();}
+}
+if (is_mobile >0) {if (open_advert_h5 !='') {var _style ='max-width:100%;height: 100%';$('#loadingImg img').attr('src',open_advert_h5).attr('style',_style);$('#bodyclass').show();}
+} else {if (open_advert_pc !='') {var _style ='width:100%;max-height: 100%';$('#loadingImg img').attr('src',open_advert_pc).attr('style',_style);$('#bodyclass').show();}
+}
+});}
+</script>
+<script>var _hmt =_hmt ||[];(function() {var hm =document.createElement("script");hm.src ="https://hm.baidu.com/hm.js?d354a40e1143f3574bc86106fd51eddb";var s =document.getElementsByTagName("script")[0];s.parentNode.insertBefore(hm,s);})();</script>
+<script type="text/javascript">function countDownFn() {if (countDownClearTime) {return false;}
+countDownClearTime =setInterval(() =>{if (_time ==0) {clearInterval(countDownClearTime);_time =0
+} else {_time--;}
+$("#time").text(_time);},1000)
+}
+if (_time >0 &&is_offline_pano ==0) {countDownFn();}
+function goTel(mobile) {if (app =="ios") {window.webkit.messageHandlers.goTel.postMessage({num:mobile});} else {android.goTel(mobile);}
+}
+function getCanvasInfoData(){var test =G('test');var code=$("#shareimg").find("canvas")[0];var codeImg=code.toDataURL('image/png');getCanvasWhite();var data={canvas:{casePicUrl:"https://vrimg.justeasy.cn/pano/20240608/32-125936_6663e53872b5c.tiles/thumb.jpg",codeWhiteUrl:whiteUrl,codeUrl:codeImg,logoUrl:"https://res1.justeasy.cn/images/vr/vr20227/logo2.png",uerUrl:"data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAAAAAAD//gA7Q1JFQVRPUjogZ2QtanBlZyB2MS4wICh1c2luZyBJSkcgSlBFRyB2NjIpLCBxdWFsaXR5ID0gODUK/9sAQwADAgIDAgIDAwMDBAMDBAUIBQUEBAUKBwcGCAwKDAwLCgsLDQ4SEA0OEQ4LCxAWEBETFBUVFQwPFxgWFBgSFBUU/9sAQwEDBAQFBAUJBQUJFA0LDRQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQU/8AAEQgAZABkAwEiAAIRAQMRAf/EAB0AAAICAwEBAQAAAAAAAAAAAAcIAAYJBAUCAwH/xABAEAABAwMEAQIEBAMEBwkAAAABAgMEBQYHEQAIEiETMSIUCVFhMkEVcRYjM0KROFJVlLIYJDQ1U1higqGx0dP/xAAaAQEAAgMBAAAAAAAAAAAAAAAAAwYEBQEC/8QAIxEBAAIBBAEEAwAAAAAAAAAAAAECAxEFITFBBAZxoRIT8f/aAAwDAQACEQMRAD8AcPlVy1n8dbksWgUiwZ1/Vm7XJTUSFT5YZd7s+keoT6auxId/DTr+Ox1/xw5o/wDCden+2H/8N+uX3+criaPvV6p/uRt41ORPLnNFu56yNSqZk+6INOhXBPjxorFTdS202l9YSlICvAAAAGwyk4P5xV3I+ckYxu7E1WxxVV0l2sByrTgtXooUEg9PSSdCdfOv907MczlBimn2RCvGTftEYtedKVCjVVctIYdeT27NpVroVDqrx+G1YtZ5yp/UksJ2Y4qS7JxM048t09i4pSyVE6++pJ/x2Or8GK7Y5gXnhi81wKFjmXQI7FtUFUFT0KFV5IbQJDDCElKHj6iz3IHudSNdgfLR+oCnJ2f5OPsf2DLve3YkuKzLvCkVAORI7LyUkvqSGz8KVFaT8Xug+d6uc+dt+YRql1OzOP1xzrSochbRub530or7QX0S6CWTolRI08n3G6RlzhgONnFibU8cX1U7QuG0qZNnVGtUaOmLJuAJK3Gm5KkKB0R5SnydAdizgMbw5rYDzjY1/wB+1qoomrpsdifOeVKciJ7OOK6JWrT4vTSD5/8AjYHbJ/1MoNoWTSbxtWw5F/WuuDHdq9WpdUSI9HmO6f8AJPK9NQ9Qdkfb8w8b4uPfqV39lagGuWfxsue4qQHlR/nIFRDjfqJ07J1DHuOw8fjv4wbG482zbjteF5xUYssopty7LZTRXRTapV0aNiTKaCNVvBRbPYJUNUj4tibjlyEf5ZVqXhLHFMawBSo/rV5Fast5Qde9NSWygt6IACw4lROuv9MbC/XB9W2t2rfTdl1fAlbp91uOssIpD9WSmQpboSWkhHoa6q7J0/iNlOw/qBzbmtDMtUrmMKhatWxtBZmTKNNqILz6lh0hsn0h6ZAb9yD+Yfba6c+cVw+L+PMP3lLkm/L7p13tSp101VoNz6o20HHW2XnQVHqkIQgeToEjepYovTIOAeWOaLjtdNu0jIVAYmUz05SHm3A0l9tYToew0+H8wHvsD1b/AD/yvdNDgVmkcWrvqFKnsokxZced2bebUNUrSQx5BBB13zb9+pJkLF9uOV+7ONN0UCjNuIaXNn1H020rUdEgkse5O1V5b5zyDiTCnGSNZd41m2I82xmHZLVLmLYS6sBsBSgkjU6HejMyfduVfpe3xVbxuKpXLUWb3ix25NTkreWhsIaISConxqonT8dhmpQ52QlWn5gDub8sj+g35/ujc2Cj81sO5WvLKGHb5xZRqVWqjZkmfKdYq0sMNFToYCAfIKh8C/Yj2GxxOt/lFOlPzJvHnCsmS+suOvyG2lLcWTqVKUXNSSTqT9zs9chM33ZjLOWFaBSkR27TuOZNbuCXJjFSWGm0s+mr1dQlrytXk++1G5a1rkZlbKrGAF1uzF0C/EvVOiSYiHElMOO6t9r1HgD8RDA/KFA6+/nYEzEOKc6VTlUnLOULbtu2oEK036E03b84LQjRXZvRHdRHuoeDoABtUMN1qNgTD9l8h62n+d69clxG3aki6kfPtwobTil/MR9fjDyUsjQlRA1Og37P0/q/R0nGrrsxzNP/AG4xWW5LqrfFMT4LSl+n2+YKkqIT100087brFXLBq5+MNDXmCkSXq7dNTk2/Kp1AgJadhNOlbaZDrSldmmwjUlwgjyDsOblO+Liz5YNw5lZKGcX2jDdr1oMtOqbTcK20lL8epxlKPZkONKATonUKPnzsRcL+TduU7PlsUixYbXz2UZKpl5wXYSmI1HlNsuLQ1AA6j09VLHxd/AT53WOYF9QMUO4ssDCNBuGpjFtUems1GTEM6DKLvR9PV1vw6AtSgQQNNCNtpx35LXJyZwPcTdjU2HRMy29HiR5rldp/y8FM1wnv1QkqX16tueCAQdPx2Aj4qw7pnYv5IM2bbFv3fXjkuWWaVc6UqhOJ9RvupQUQNUjUj8QN2bKVqRON/J1zMFQpVPtmxKpaSbUY/YWUJUKu8oqSPRbAIT8B/qew0HnfCzRguNhG0JVOuJ5VQx3dCm65elFoMgu16TWnF+XICCBpGDiUEg+QkK2K8D4FrnC2uzsrXvJbvmxalCeoLUKz3V1Ka24/1WkqQUpSOqG1AntqCR4Ouws9Bxhd/EygYqquRHDkC5r2uVq2qpRbsl/u9Op7Dj5KZEUE/C96aEjsSfzKGmzTV+MmR34XKWlwmY7dt3jAYjWfTUTkois6NuhxKWtescFShr4APvtV80c1aFi3jZTsY4cti66LTnnZUSXJvylgqVHkJdLgad7f2nZZI8eADu14bv8Av5HEa2sUXVKp7rGVKW7RbAdgoUFxnQtQeM9w+QCXW9CgK9lePuBGtOyOVdDsO1rWmYWxTc8a3ae1TIkmtOokvBpCQB5LngnQE6ADXdezhhXlTmnE83HS8UY4tOiy5jM5wW7LRGUpxs6g6eoUnXwCSNdBvxCuaR9Mq9sX2ihifXqZdlLcqF3x4LZqEl6ay0UJMPXp1b7kEgj8oO+9g6sZI5YwLlzjZ8inU7K1ArL9t0VNZQtmA3SvDhS+wnsS+A6R219/4bDI60kpaQk+4SBub/U9uo7fm087mwXLmhZ913DZ0eVEDtdx/DZfVdVlwIxXPr7Ci36bMdxKe7akkLJKVJJ19ztNeH7NbyTmdOZLvuaBZdgYplyrYgUO4UJiyKdEcZW0xHW7oAVILyEkuKKiQfJJ273MbJ8y0MT1W3rVraqdk+4IrjVrQoqh83MkIUgrDIPgqCVD3++8avHnG+WLBv6a5yFotWo+Fa5MfqN3LuFATAkylNq9B18p89jI9HTT+912FkyBys5IWTa1Tu2q5WplCH8wKhQrTn0eG3UX4SlEtzG0qZBWwU+A5510PnbD4pqtr5d+ojl9NPqcK47fqdhMQXpFOlBxpxKiwhxAcbPg6EjwdR+HjdLyPX6zlSts1OscHZF4NRI6YNNqrtY8OQkE+iUaMflIVqB/5tr7YcCVF5bV6l0+rL4dTZlJjRmKQlHzypDi1tBLQJLflwkL/wDTsGGztzwsvh1SrqwLj20KvRqnbsZUalVJL7cmPHeeb+YS4Q8pSlAKe1IVr7ae2wxwIyVmKVVMoZjiz37ipbFRjTrmtmm0ttc+vuuh1KPl+reiChSishJT4G7TR+LtToXJjIlKzZbD+UqdWICXYN9VbWGVrZaaSS0hJXqoqeaaPxjQIJ118bYGll2i1WPb9Pt6NAtONCC2JEVxDbLTnbr6KY6QNPh89tP46k7qO++4/T7JpjtX87zE201iOI77+ojmfCDLmjH2uOTcs4pi1egZaj0F+7su0umNxItp0eeV1iMy+D6zSogXoVNh1wq7IJAB+2wXwgzHVcS8H65cdIsuvXdUpV4T4zVMokf1pLC3G0qDi0efhSUgH8SNlTFlZqj1+R6zUbORJmUuW9EgPrIkuNMLT09VLqUlTKVBR1R9tfGumwjnvOlf4McgGYFk2lKTjWu0TrGoNPkGPB/eHl/1H0ultYU6kJQCnx4IPj9dntG6U3bB+6lZrp3E/GvE9THx51h6x3i8arxT74x9l/ifTE8qJ0KdftAM6qvW1UZ6aNUlLQXvRT8u0pohS2uoSCnQ9gfOuu0Xo2abkzfyHxhaOM5/8lW3Q6wGbJh1NhqSaN6pR2LiylSnvjQD8ZXp7DbM5F4uUTIHGyybo5A3gxinKc2qSEVO5LggmRMqCEF1LDCwlxAADSWyPwQNjTFsbE/E/Ituu2K5SuT931uYhNKbp/amv0aQ0dUlGvrdy6XRp+XT0f118btKca4814ltHkFhuk5Jq1NuXKVIpkqJJvOLVG40GlyEtLTIS+0FpQguEKACkeCoe26JiCjXxmRd4Vni/d9PxVZzNelMVWFWY6Kmqo1Ht2cmNuLS71QtCm9EhQHwk6efKpXRYECyskXvmrOdrpo9SlVZ6pU3FVcPVdcakLKVlEkewZU4Fk+mdemnjXUXXFz3JbHmBbjtbGWHrmto3JXRcVOr1NkoPysVwIKY6UFHxpKEpHbsP4bDMgnVKQFHVWnk/fc3GQfST2/NoNf47mwTDl//AJyeJun+t6p/uRthK8eRs2Bm25cNY8hscipFzVWZMn0a91rbZpUhha1qhs+v1bLTYa7g6kajwddN3T6ueILwu6z7Vv62pDMODZLM+VPkCYWJDYdVGCC1p5J+BWuhGnj7742CsI4e524/s+5oVZua3rns2lR6FUpVJU3BdfleiFOuFfVSnCSpQKydSPfYBy4KZWMioeoGCOQV+3XlBDhcfstcx6BEgso1EhDbzvRvq0rqhICvI001G7/i7DXI6JRoVDvnA9u3VV33y0/kGtVaJJrMNtatA824XirswD2QB7FI03UxScc2Fjqsu0ibXYuD4VbcYmXK0lKLqNdT49FKgBrEKUpJ18k67ZzEuacw8n+LduV2iRLdi1WtVeTS696zjkb0KZqtpxyPqokPBJBBOo1/TYXS363jq2bDu3HNavqo3ZcuOact2tV6sRHn5sZt9RfQor6H1PAbGiCTohI2NajBuFqXJjsU6bMbYeUyZEWM44hRSopURoNSNR/j43ZLD4d1PjhflPqGMpgu2lXTKai3k9es0SHvkWyOpj6JHdeilg9tRoE7BF7WPftA5k1ixLqfjN2pmKrPuQ65ClKXVqZEihbjaWHT/wBP5UkFOhGmum6lvftv0m+Xx5M0zFqeY05jvTn+8sbNhjLMTPhkDolANCm0dylVhuJbkWE407S0xkKMl1RSUvF38wIAV49j2/DYlzYumUDElSkXy/Au009uVMcl1GmtpRolLzjSg0nUBTQ06qHn4fuo7B9F5mC4c1Q8PYxpVUvmpQ2ZMWZU69PapyjKjKc9XUhhaVApbBBATqSfGyJxcyBM5X25NuCp20INvFUuiTWZklmUn1EaduvwJ7du6Tr0ToW/JVqNLTSlcdYrWNIj6ZERERpAL4Rt7B2VqRkaHOzrc+YoUG25Up9u7Kc+8mit6aKnRw83/aoB0HXVWitprydwDavHC2sV5GxPf9Zr0W5ly5MGqOsmG6x6BaCVt6BK0nVavfQ/CNN5Lr6srGvEHjo1jKjNyJE68kzLWpFRcYackPS5iXS2mQ8kJ0bClDzodAB42odi5Rqcewrt4hX9SKI5e8KIm3LQkxI3rNplv91LLslRPQfE1opKR+v23I6brG1vVXLVn8enblxjQcjW5OtVp2uXbcXoyJkB4x+yEoS6SpfdYTqQD7k7C30/eV11TOSF14VqKP3SjfulVlRJ8uS447CZZV0ajNJJ6paSEDQD218b+tVwy5yU4/xrRsi6K1SMrYkgxbTlQ2qkYVMelIUgPkrSCXQEoc6q8fp4875XG62OPvGSiVDPYrl4S6nbkxdsVtElLb6TUHEpS+W0gBS0didFlX8dhlC1/E7m/KVBaQoexGu5sEw+ojwsu/lubH/laq0imJoQm/MfurjiO/rFjr16IV7ekrXXT3HvsNYUxthXilZ1ZzDULIvKJdWN5SKJUpDzqks1GS6lMV1+KhxSQtlRdUQTp486e22a5lV+5aI5an8vZ6t7CgcEr1v36Ow7+46ej16eqPHp+ddP+8Gxjfl9Y3yybOod8cirHr1gsUpEa66B82wya3NQCpEhLrakqaAdDa+qSAemmmhI2ATw3kfJmecjSrxp1vVO281Ntvt0+5a9SFsUQW+FBfy5ToQZBKyQvQgj9dp5zjymjkNmOblCiUCsUu16gxGgMSalG6JW8031WkLSVIJ8HwFa6D2G8oXGi4K09kmXCf5J2nk+1WKdJESzqMxGTIaZT1DZ9RHxkNo0SST51BO1Trt244zzgWg0Cn2Q9hzF1r1V24GJVfnreiV55vv61OjvKIPrOd16aKJGh8bA2cYsdW1ljhBi+pRK/Sol/wBgMzqtR35dQSlimS1SnS27LbBP9P4EnRQ9gdhKmU+6jhLl9T7qkxateVz1CC7BXSmyGq2tMhSnXIKNAXmwDrq2DoDqd796Viycf4pw9dGH8bz6Tb2WJkql3JZsWY5Lk1qGy76YipcWVFClEr0U31V8fv43WM050gXNR6TcFkLTgm6cIMKp1LtKvvIkz5heKWlIZS7+rSUEK7hR0UNhcuMFw13jLYK8SUC87Wp+Rr2U3ckKtTpCF02lshpAdizO2im5GjS09Op0Kh52wtxZSsvhBbNUxdb2Ob5r8eow3au9VKPDM6J68lBCz6pUNACgHT9BpsEWv9PO1L7xkYdy37QXc2376N1Uqe76jb7UV1KHn0CMlwBepD2qgnQan7bIWbeZFx3rwugXZYCn7KqKrtas59yQlqUXGw0tLiviQQAokH21GnvsFQ4zwZHG3ANw5MrbK61TMq0efZdFp9HSXJbUwqWkKdSrqOhLStOhUryPG+3x54W2nb1LtOrZ0tuuTaffKgmmO0tbsVNB9Nag8upKWEBpJ7tlJJPhKj/Excl8RVPidx144Ws45/OVSoGQETEN01ooVNUpx59LTaTqex7BP6+d6Dl95r5kVvONFqmQEYWsGhssoqVu3TS2VLiRnkL7Icd6JWnT0iokkHRQ+2woHKvgNaEfPGJ8eYZktQheVNly0zqlUVyY7haBcCgtIV4KEkDrqDqN9uH9LKkx8BV52fflo/z6xW0MNV5NbUmlxmAEhbDuqdA927eCNfI2LuTwylxTubC1Zh5YgXgafQnBalWplPaSzEhEel1HYKDoUhXhStfGzNxNwjWr8vuLZNxV9nK+FbqjO3RcD1IYLcONWloCgw9IaPZDyT1JQFpB7D4dhlnZT1aSPB0AG5v9SkISEjwANBubBGudNqUe+OVPFug1+nR6tR51TqrUmFKQFtPJ6RjopJ9xqBtPsp8sMJ43yXddpp4sWfOTRKpJpwlGUEF4NOqR36+gdNeuump99tp9QTINDxXyU4yXbckpUKh0mo1WRLkIaU6UI6xhqEpBJ8kew2o2Q7O4V5Evy47qnZovKLMrVQfqDzLFGX6ba3XFLKU6xidAToNSdgyWPbBtazvqIW9Hsy2YFrwKrjBVRNNprYQ36rqiT+g1P5Rr+A3j1rmH89PJqmJZlIrS4lqx13JJttx9BagtFJKpPXt18hw+3n4tv/gXMVkZk+o1bVRsGqvVqhUvHaqR81IjLYWVtOfqlaUn2Uk6gaedlLlXy4srDGYaDaNBt+hVnIdfqMGj179xpi/U/bJHg6vgAOe6PgKlD7jYJhws4i5c5G2nQKrVb7r9jWhbRE+zprbSZLQeLyw6WE+qktlK0ak6eSd1iThC+7iunkLYtKx25mi6Wqw3EXfkt1DUynupcWVOBCydS6Eq10X4099vLyHzBjek5DtrHFh3NULcyVZ9QC6PZFHiuwqVVpjyUOMxZKkoS36SipJJ7JA7q1IOwvG5HZKvoZYol42Vb+JrXpE5qLf142U4purQXStXpuIKHFKfWXE9CoJX8K1bAK3JgzPuKcKTM1Xzd9yWld1muR6DRKe+tK3PkHChv+m8lwlCR6i09ev6fjs9Uet45VkqJcCWqdM4zmktoZjqbIpTt2ag6elpqJBTqO/XTQnzs/YU4RUCJMol4TsoXtky3JsMSmqHeMpMuBJbda1bW4y4j8yQpKhqNQR+GwW7wKw5RsoOYtXl++26hAYN4KtlIT8ihtK/7UAM+l28af6Wn/uHK5h8oqfd0bBsS+YbFh33b99RKpX7YcfVIcpkRKlFDy3AgBQU2UL8efi3qVvIN3WFfGf8qUjEKMq4WvxEeSqrvzkx4jsNhtaVr6FKlKSSpQIKQfh/XXdXzfZlmcyM9N5F4/Tn8jXxFlQ6hWLarjAh09EKOhDYOr6Ed+y0NpUnsTotXjT2e+6aNGk8Ka1Tcq0uJjWGuhPN1uDa7SXGaa3qrt6CEdwfGh0GvknYY6omRrp5kX3Yt1Wlxxi3FZeO4blHdtdmoIVDcS42fSQStCeoR8KgAk/l/Tdg408VOUDeRqlQWZlz4JsSqSZVTUunOtusR3D5Q10S4nXwEoB8eEjxu8fSly7jSwb6yHjSj1+XOdr1dK7bXJhuBc2Kyy4r1HCEBLauiddFdf4brNs/UWkO85ZFayRVHLWsqgR6jQzBpfzTsZ9SHXEtOuMBS9XD4HYDxoNhluSgpSATqQNNfvubiXApII8gjXc2GjUKLTqspv56BFm9AevzDKXOuvvpqDp7D/Dep/Jdvf6ipn+xt/8A1ubmw2YFt0mmPl6HS4UR7Qj1GI6EK0+2oG5It+ly5okv02I/JTooPuMIUsEe3xEa+Nzc2H4u36W5NTNXTYi5moX8wphJc7D2PbTXX8dd+/2KmuJlJVT4pTKPZ8FlOjx191+PiP8AHc3NhtR2kMtBttCW22/gShA0AA8AAfp7b+K6dEVLMsxWTKKPTL5bHco/0e3vp+G5ubD5U2g0ylLU7Bp0SG4sdVKjsJbJGvsSBvZlRmZcd1l9pD7Kx1U24kKSofYg++5ubDRi2vRoD6X4tJgxn0a9XWYyEKT+h0IGo8E7+ZtCgvLWtdEpy1qPZSlRGyST5JPjc3Nh2fy+Bubm5sP/2Q==",title:"黄总左栋",userName:"榮豪Design"
+},operate:{linkUrl:""
+}
+}
+var _html=`<img src="${data.canvas.casePicUrl}" crossOrigin="anonymous" id="canvas_case_pic" ><img src="${data.canvas.codeWhiteUrl}" crossOrigin="anonymous" id="canvas_code_white" ><img src="${data.canvas.codeUrl}" crossOrigin="anonymous" id="canvas_code"><img src="${data.canvas.logoUrl}" crossOrigin="anonymous" id="canvas_logo" ><img src="${data.canvas.uerUrl}" crossOrigin="anonymous" id="canvas_user"/>`
+if(test ==1){console.log(data);}
+$("#canvas_img").append(_html);if(data.canvas.title.length>10){data.canvas.title=data.canvas.title.substring(0,10)+ "...";}
+if(data.canvas.userName.length>6){data.canvas.userName=data.canvas.userName.substring(0,6)+ "...";}
+setTimeout(function () {canvasPop(data.canvas.title,data.canvas.userName);},300);}
+</script>
+<div class="vr-gg-box none" id="preview_advert"></div>
+<script>var is_self =parseInt(0);var uid_ =parseInt(1367592);var panoid_ =parseInt(31594194);$.ajax({url:'/pano/index/getSelf',data:{uid :uid_,panoid :panoid_,},dataType:'json',type:'get',}).done(function (data) {if(data.status ==200){window.location.href ='https://vr.justeasy.cn/Pano/Index/errorself';}
+}).fail(function () {})
+ $(document).ready(function() {setTimeout(function() {$.ajax({url:vr_site_url + "Pano/Index/is_first_compare",type:'get',dataType:'JSONP',data:{panoid:PANOID,},}).done(function (data) {if(data.status ==200){krpano.set("layer[compare_btn].visible",true);}else{krpano.set("layer[compare_btn].visible",false);}
+}).fail(function () {krpano.set("layer[compare_btn].visible",false);});},1000);})
+$(document).ready(function() {setTimeout(function() {wx.config({appId:wx_share_appId,timestamp:wx_share_timestamp,nonceStr:wx_share_nonceStr,signature:wx_share_signature,jsApiList:['onMenuShareTimeline','onMenuShareAppMessage','onMenuShareQZone','onMenuShareQQ','previewImage']
+});wx.ready(function () {wx.onMenuShareTimeline({title:wx_share_title,link:location.toString(),imgUrl:wx_share_imgUrl
+});wx.onMenuShareAppMessage({title:wx_share_title,desc:wx_share_desc.replace('&amp;','&'),link:location.toString(),imgUrl:wx_share_imgUrl
+});wx.onMenuShareQZone({title:wx_share_title,desc:wx_share_desc.replace('&amp;','&'),link:location.toString(),imgUrl:wx_share_imgUrl
+});wx.onMenuShareQQ({title:wx_share_title,desc:wx_share_desc.replace('&amp;','&'),link:location.toString(),imgUrl:wx_share_imgUrl
+});});},1000);})
+</script>
+<script>$(document).ready(function () {if(avatar){setTimeout(function () {krpano.set("layer[avatar_1].url",avatar);},1000);}
+})
+</script>
+</body>
+</html>
